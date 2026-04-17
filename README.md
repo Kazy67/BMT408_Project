@@ -6,7 +6,7 @@
 
 ## Kurulum Adımları
 1. AWS EC2 Ubuntu 24.04 LTS sunucusu oluşturuldu ve güvenlik duvarı (Security Group) yapılandırıldı.
-2. Sunucu içi hardening işlemleri yapıldı (gazi kullanıcısı açıldı, root girişi kapatıldı, SSH key yetkilendirildi).
+2. Sunucu içi hardening işlemleri yapıldı (gazi kullanıcısı açıldı, root girişi kapatıldı, SSH key yetkilendirildi, hostname öğrenci numarası ile .net olarak ayarlandı).
 3. Gerekli paketler (Docker, Nginx, Ufw/Nftables) kuruldu.
 4. Proje dosyaları sunucuya çekildi (`git clone`).
 5. `docker compose up -d` komutu ile servisler ayağa kaldırıldı.
